@@ -9,13 +9,12 @@ def prompt(message)
   puts "=> " + message
 end
 
-loop do 
+loop do
   loop do
     prompt("Make a choice between rock, paper, and scissors:")
-      user_deal = gets.chomp.downcase
+    user_deal = gets.chomp.downcase
     if moves.include? user_deal
       break
-    else
     end
   end
 
@@ -34,4 +33,4 @@ loop do
     puts "You win!"
     break
   end
-end 
+end
