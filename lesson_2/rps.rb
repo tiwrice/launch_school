@@ -12,7 +12,7 @@ end
 loop do
   loop do
     prompt("Make a choice between rock, paper, and scissors:")
-    user_deal = gets.chomp.downcase
+    user_deal = gets().chomp().downcase
     if moves.include? user_deal
       break
     end
